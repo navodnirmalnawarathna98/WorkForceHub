@@ -10,6 +10,7 @@ namespace WorkForceHub.Data
         {
         }
 
+        //employee
         public DbSet<Employee> Employees { get; set; }
     }
 }

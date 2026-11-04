@@ -21,6 +21,7 @@ namespace EmpWebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllEmployees()
         {
+            //GetAllEmployees 
             var employees = await _dbContext.Employees.ToListAsync();
 
             return Ok(employees);
